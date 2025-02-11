@@ -9,7 +9,7 @@ class mingchaoTableCode:
     data = json.loads(str(mingchaoRefresh(token)))
     print('token：'+ token)
 
-    print('data：'+ data)
+    print('data：'+ {data})
     
     userId = data['data']['userId']
     roleId = data['data']['roleId']
